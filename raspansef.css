@@ -1,0 +1,28 @@
+@media (max-width: 700px){
+    .all-carts{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+       
+    }
+    .all-carts .cart1{
+        display: flex;
+        flex-direction: column;
+    }
+    .disan{
+        display: none;
+    }
+   .gallary{
+    display: flex;
+    flex-direction: column;
+
+   }
+   .your-gallary{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+   
+   }
+   .carts{
+    display: none;
+   }
+}
