@@ -9,10 +9,10 @@ function setSlide(input,index){
     item.classList.add('active');
     
 }
-// setInterval(()=>{
-// slideIndex +=1;
-// if(slideIndex==4){
-//     slideIndex=1;
-// }
-// setSlide(`slide${slideIndex}` ,slideIndex);
-// },2000)
+setInterval(()=>{
+slideIndex +=1;
+if(slideIndex==4){
+    slideIndex=1;
+}
+setSlide(`slide${slideIndex}` ,slideIndex);
+},2000)
