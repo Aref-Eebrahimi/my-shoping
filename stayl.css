@@ -1,9 +1,9 @@
-body{
+body {
     font-size: 16px;
-    
+
 }
 
-*{
+* {
     box-sizing: border-box;
     text-decoration: none;
     margin: 0px;
@@ -13,71 +13,77 @@ body{
 
 /************** astayl header *****************/
 /****************** disan slider ******************/
-.slider{
+.slider {
     position: relative;
-   display: flex;
-   flex-direction: column;
-    }
-  
-    .slider .slides .item{
-    display: none;
-    }
-    .slider .slides .item img{
-    width: 100%;
-    }
-    
-    .slider .slides .active{
-    display: block;
-    
-    }
-    
-    .slider .boutons{
-        position: absolute;
-        bottom: 20px;
-        left: 50%;
-        transform: translate(-50%, 0px);
-        z-index: 1;
-    }
-   
-    
-    .iacan-slid{
-        cursor: pointer;
+    display: flex;
+    flex-direction: column;
+}
 
-    }
-    .slider .boutons img{
-        height: 20px;
-        
-    }
-    /****************** disan slider ******************/
-header{
+.slider .slides .item {
+    display: none;
+}
+
+.slider .slides .item img {
+    width: 100%;
+}
+
+.slider .slides .active {
+    display: block;
+
+}
+
+.slider .boutons {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%, 0px);
+    z-index: 1;
+}
+
+
+.iacan-slid {
+    cursor: pointer;
+
+}
+
+.slider .boutons img {
+    height: 20px;
+
+}
+
+/****************** disan slider ******************/
+header {
     /* position: relative; */
 }
- 
-.disan{
+
+.disan {
     display: flex;
     flex-direction: column;
     position: absolute;
-    top:16%;
+    top: 16%;
     transform: translate(30%, 50%);
-    
+
 
 }
-.for-and-calss{
-    display: flex; 
+
+.for-and-calss {
+    display: flex;
 }
-.p11{
+
+.p11 {
     font-size: 3em;
     font-weight: 500;
     color: #161616;
 }
-.p12{
+
+.p12 {
     font-size: 1em;
     font-weight: 500;
     color: #504f4f;
 
 }
 
-.search{
+.search {
     background-color: rgb(224, 98, 89);
     border-radius: 8px;
     border: none;
@@ -85,191 +91,207 @@ header{
     margin-top: 5px;
     width: 70%;
 }
-.disan .pictuer-img{
-height: 12px;
+
+.disan .pictuer-img {
+    height: 12px;
 
 }
 
-
-
-
-
-
-
-
-.navbar{
+.navbar {
     position: absolute;
-   top: 0px;
-   right: 50%;
-   transform: translate(50%, 0px);
+    top: 0px;
+    right: 50%;
+    transform: translate(50%, 0px);
     display: grid;
-    grid-template-columns: repeat(6,1fr);
+    grid-template-columns: repeat(6, 1fr);
     gap: 10px;
     padding: 3px;
     margin: 5px;
 
 }
-.navbar .nav{
+
+.navbar .nav {
     color: white;
     font-size: 1em;
+
 }
 
 
-.carts{
+.carts {
     background-color: rgb(197, 94, 111);
     border-radius: 7px;
     height: 70px;
     width: 200px;
     /* position: relative; */
-    position: absolute; 
+    position: absolute;
     bottom: 0px;
-   top: 50%;
+    top: 50%;
     transform: translate(70%, 50%);
 
 }
-.carts .carts1{
-    display: inline;
-    position:absolute;
+
+.carts .carts1 {
+    display: flex;
+    position: absolute;
     top: -20px;
     left: 20px;
-    
+
 }
 
-.img-ican{
-    height: 50px;
+.img-ican {
+    height: 30px;
     border-radius: 50%;
+    margin-right: -10px;
+    border: 1px solid white;
+
 }
- .p13{
+
+.p13 {
     padding-top: 15px;
     padding-left: 15px;
     display: flex;
     flex-direction: column;
     text-align: center;
-    
 }
-.my-mino{
+
+.my-mino {
     top: 0px;
     right: 0px;
     transform: translate(-10%, 5%);
     position: absolute;
 }
-.my-mino img{
+
+.my-mino img {
     height: 26px;
-   
-   
+
+
 
 }
+
 /******************* unit hader button**********************/
-.header-button{
+.header-button {
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 40px;
 }
 
-.button-div{
+.button-div {
     text-align: center;
 
 }
-.button-div .a{
+
+.button-div .a {
     padding: 20px;
 }
-.button-div .a img{
+
+.button-div .a img {
     height: 36px;
 }
 
-.button-div h3{
-    margin:15px 0px 0px 0px;
+.button-div h3 {
+    margin: 15px 0px 0px 0px;
 }
-.button-div p{
+
+.button-div p {
     margin: 0px;
 }
+
 /************** astayl header  *****************/
 
 /************** astayl main  *****************/
-.tatal{
+.tatal {
     text-align: center;
     margin-top: 30px;
 }
-.tatal h1{
+
+.tatal h1 {
     font-size: 2em;
     margin: 8px;
     margin-top: 10px;
     color: #161616;
 
 }
-.tatal p{
+
+.tatal p {
     margin: 0px;
     color: slategrey;
-    
-}
-
-.all-carts{
-display:grid;
-grid-template-columns: repeat(2,1fr);
-margin: 40px 0px 40px 0px ;
 
 }
-.all-carts .cart1{
+
+.all-carts {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 40px 0px 40px 0px;
+
+}
+
+.all-carts .cart1 {
     box-shadow: 0px 1px 2px 2px rgba(0, 0, 0, .2);
- border-radius: 10px;
- display: flex;
- justify-content: space-around;
- padding: 15px;
- margin-right: 40px;
- margin-left: 40px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    margin-right: 40px;
+    margin-left: 40px;
 }
 
 
 
-.all-carts .cart1:hover{
-    
+.all-carts .cart1:hover {
+
     z-index: 2;
     -webkit-transition: all 120ms ease-in;
     -webkit-transform: scale(1.1);
-    -ms-transition:all 120ms ease-in;
+    -ms-transition: all 120ms ease-in;
     -ms-transform: scale(1.1);
     -moz-transition: all 120ms ease-in;
     -moz-transform: scale(1.1);
     transition: all 120ms ease-in;
     transform: scale(1.1);
-     
+
 }
-.all-carts .cart1 img{
+
+.all-carts .cart1 img {
     height: 300px;
     border-radius: 8px;
 }
 
-.all-carts .cart1 .h1-i-p{
-text-align: center;
+.all-carts .cart1 .h1-i-p {
+    text-align: center;
 
 }
-.all-carts .cart1 .h1-i-p img{
-     height: 40px;
 
-    
-    }
+.all-carts .cart1 .h1-i-p img {
+    height: 40px;
+
+
+}
+
 .all-carts .cart1 .h1-i-p .h1 {
     font-size: 5em;
-    margin:20px;
-    
-}
-.all-carts .cart1 .h1-i-p #h11{
-    margin-top: 60px;
-}
-.all-carts .cart1 .h1-i-p .shopengs{
-    background-color: rgb(207, 119, 133);
-    border-radius: 6px ;
-    text-align: center;
-    padding: 3px; 
+    margin: 20px;
+
 }
 
-.all-carts .cart1 .h1-i-p p{
+.all-carts .cart1 .h1-i-p #h11 {
+    margin-top: 60px;
+}
+
+.all-carts .cart1 .h1-i-p .shopengs {
+    background-color: rgb(207, 119, 133);
+    border-radius: 6px;
+    text-align: center;
+    padding: 3px;
+}
+
+.all-carts .cart1 .h1-i-p p {
     margin: 0px;
     margin-top: 6px;
-    
+
 }
-.gallary{
+
+.gallary {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -278,139 +300,142 @@ text-align: center;
     padding: 20px;
 
 }
-    .gallary .introduceg{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        grid-template-rows: repeat(3,1fr);
-        gap: 20px;
-     
-    }
-    .gallary  .introduceg .marafe1 .img-and-h6{
-        display: flex;
-        
-      
-    }
-    .gallary  .introduceg .marafe1 .img-and-h6 img{
-        height: 40px;
-        border-radius: 50%;
-    }
-    .gallary  .introduceg .marafe1 .img-and-h6 h4{
-        margin: 0px;  
-    } 
-    .gallary  .introduceg .marafe1 .img-and-h6 .ps4 span{
-       font-size: 0.7em;
-    }
-    .gallary  .introduceg .marafe1 .img-and-h6 .ps4 p{
-        font-size: 0.6em;
-        margin: 0px;
-     }
-     .gallary  .introduceg .marafe1 p{
-        margin: 0px;
-        color: #504f4f;
-     }
-     #marafe33{
-        margin-top: 20px;
-        margin-left: 40px;
-     }
-     #marafe4{
-        margin-top: 40px;
-     }
-    
 
+.gallary .introduceg {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
 
+}
 
- .your-gallary{
-display: grid;
-grid-template-columns:repeat(4,1fr);
-grid-template-rows: repeat(4,1fr);
-gap: 5px;
+.gallary .introduceg .marafe1 .img-and-h6 {
+    display: flex;
 
 
 }
-.gallary .your-gallary img:hover{
+
+.gallary .introduceg .marafe1 .img-and-h6 img {
+    height: 40px;
+    border-radius: 50%;
+}
+
+.gallary .introduceg .marafe1 .img-and-h6 h4 {
+    margin: 0px;
+}
+
+.gallary .introduceg .marafe1 .img-and-h6 .ps4 span {
+    font-size: 0.7em;
+}
+
+.gallary .introduceg .marafe1 .img-and-h6 .ps4 p {
+    font-size: 0.6em;
+    margin: 0px;
+}
+
+.gallary .introduceg .marafe1 p {
+    margin: 0px;
+    color: #504f4f;
+}
+
+#marafe33 {
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+#marafe4 {
+    margin-top: 40px;
+}
+
+
+
+
+.your-gallary {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 5px;
+
+
+}
+
+.gallary .your-gallary img:hover {
     box-shadow: 0px 0px 50px #000000;
     z-index: 2;
     -webkit-transition: all 120ms ease-in;
     -webkit-transform: scale(2.2);
-    -ms-transition:all 120ms ease-in;
+    -ms-transition: all 120ms ease-in;
     -ms-transform: scale(2.2);
     -moz-transition: all 120ms ease-in;
     -moz-transform: scale(2.2);
     transition: all 120ms ease-in;
     transform: scale(2.2);
-     
+
 }
-.gallary .your-gallary img{
+
+.gallary .your-gallary img {
     height: 120px;
     width: 120px;
     border-radius: 7px;
 }
-.gallary .your-gallary a{
+
+.gallary .your-gallary a {
     background-color: rgb(207, 119, 133);
     border-radius: 7px;
     padding: 5px;
     color: rgb(43, 39, 39);
-    
+
 }
-.gallary .your-gallary a div{
+
+.gallary .your-gallary a div {
     text-align: center;
 }
+
 /* *****************unt sign******************** */
 
- .sign {
-    
-    /* background-image: url("./picture/sanup.jpg");
-    background-size: cover;
-    background-position: center;   
-    font-weight: 300;
-    height: 400px;
-    margin: 70px;
-    border-radius: 8px; */
-   
-}
 
- .sign-up{
-    /* background: rgba(255, 255, 255, 0.24); */
-    /* box-shadow: 0 8px 32px 0 rgba(19, 19, 20, 0.37);
-    backdrop-filter: blur(1px);
-    border: 1px solid rgba(255, 255, 255, 0.18);
-    padding: 0px 50px 30px 50px;
-    border-radius: 10px; */
+.sign-up {
     display: flex;
     justify-content: center;
-    margin: 50px auto; 
+    margin: 50px auto;
 }
- .input{
+
+.input {
     display: flex;
     flex-direction: column;
-    background-color: rgb(231, 157, 96);
+    background-color: rgb(216, 167, 128);
     padding: 10px;
-    border-radius: 9px;
+    border-radius: 8px 0px 0px 8px;
 
-    
+
 }
- .input .pgo{
+
+.input .pgo {
     font-size: 3em;
     margin: 0px;
     color: #161616;
 }
- .input p{
+
+.input p {
     margin: 3px 0px 3px 0px;
     color: #2b2929;
 }
- .input .name{
+
+.input .name {
     padding: 10px;
     width: 80%;
-    background-color:rgba(8, 12, 14, 0.637);
+    background-color: rgba(8, 12, 14, 0.637);
     border-radius: 8px;
     border: none;
     color: wheat;
 }
- .input .labal{
+
+.input .labal {
     font-size: 1.3em;
 
 }
- .input .href{
+
+.input .href {
     background-color: rgb(238, 88, 113);
     border-radius: 7px;
     border: none;
@@ -420,64 +445,78 @@ gap: 5px;
     text-align: center;
     color: rgb(239, 242, 245);
 }
-.sign-up .ph3{
-    background-color:  rgb(231, 157, 96);
+
+.sign-up .ph3 {
+    background-color: rgb(216, 167, 128);
     padding: 10px;
-    border-radius: 9px;
+    border-radius: 0px 8px 8px 0px;
 }
- .sign-up .ph3 p{
+
+.sign-up .ph3 p {
     color: #2b2929;
 
 }
+
 /************** astayl main  *****************/
 /* ************ my footer******************** */
-.footering{
+.footering {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background-image: linear-gradient( rgb(255, 255, 255),rgb(88, 163, 173));
-    
-}
- .footer{
-   text-align: center;
-   justify-content: center;
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(88, 163, 173));
 
 }
-.footer img{
+
+.footer {
+    text-align: center;
+    justify-content: center;
+
+}
+
+.footer img {
     height: 30px;
 }
- .footer p{
-margin: 2px;
+
+.footer p {
+    margin: 2px;
 }
- .footer h2{
+
+.footer h2 {
     margin-top: 20px;
     color: #2b2929;
-    }
- .my-footer{
+}
+
+.my-footer {
     margin-top: 110px;
     display: flex;
     flex-direction: row;
     gap: 10px;
 
 }
-.my-footer img{
-height: 27px;
-border-radius: 50%;
+
+.my-footer img {
+    height: 27px;
+    border-radius: 50%;
 }
 
-.your-footer h2{
-margin: 0px;
-margin-top: 10px;
-color: #2b2929;
+.your-footer h2 {
+    margin: 0px;
+    margin-top: 10px;
+    color: #2b2929;
 }
-.your-footer p{
+
+.your-footer p {
     color: rgb(71, 72, 73);
     margin: 5px;
 }
-.your-footer span{
-    background-color:rgb(41, 39, 39) ;
-    color: rgb(218, 207, 193);
-    border-radius: 5px;
+
+.your-footer span {
+    background-color: rgb(214, 119, 119);
+    color: #161616;
+    /* border: 1px solid rgb(121, 194, 153); */
+    margin: 5px;
+    border-radius: 8px;
     padding: 3px;
     text-align: center;
+
 }

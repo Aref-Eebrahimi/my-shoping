@@ -25,6 +25,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(5, 1fr);
+    overflow: hidden;
    
    }
    .your-gallary .img-12{
@@ -53,4 +54,5 @@
        padding: 50px;
        justify-content: center;
    }
+
 }
